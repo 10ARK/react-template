@@ -6,7 +6,20 @@ import { ADD_ORDER,
 
 const initialState = {
     isFetching: true,
-    orders: []
+    orders: [
+        {
+            id: 1,
+            description: 'first order of the year',
+            date: new Date('2017-10-22'),
+            status: 'Pending'
+        },
+        {
+            id: 2,
+            description: 'second order of the year',
+            date: new Date('2017-10-22'),
+            status: 'Pending'
+        }
+    ]
 }
 
 export function app(state = initialState, action) {
