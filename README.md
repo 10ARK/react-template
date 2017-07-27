@@ -24,3 +24,6 @@ Template project of all components, patterns, conventions, standards that we ado
 # FAQ
 1. What is the difference between import statements with and without curly braces {} ?
 The best answer is found in the [Mozilla documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import).
+
+# React Style Guide
+We can model our JavaScript and React coding standards against [Airbnb](https://github.com/airbnb/javascript).
